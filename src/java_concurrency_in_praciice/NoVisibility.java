@@ -21,7 +21,7 @@ public class NoVisibility {
 
     public static void main(String[] args) {
         new ReaderThread().start();
-        number = 42;
+        number = 45;
         ready = Boolean.TRUE;
     }
 }
