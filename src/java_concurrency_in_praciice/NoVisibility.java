@@ -1,5 +1,9 @@
 package java_concurrency_in_praciice;
 
+import sun.rmi.runtime.Log;
+
+import java.util.logging.Logger;
+
 /**
  * @author yanlianglong
  * @Title: NoVisibility.java
