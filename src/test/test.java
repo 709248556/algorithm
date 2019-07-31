@@ -1,3 +1,5 @@
+package test;
+
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,11 +14,6 @@ import java.util.Set;
  */
 public class test {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(5);
-        list.add(5);
-        list.add(5);
-        list.add(5);
-        System.out.println("你好cherry！");
+        Children children = new Children();
     }
 }
