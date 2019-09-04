@@ -20,7 +20,7 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返=回0。
  */
 public class minNumberInRotateArray {
     private int MinOrder(int[] array,int begin,int end){
-        for(;begin<end&&array[begin]>=array[begin];begin++);
+        for(;begin<end && array[begin]>=array[begin];begin++);
         return array[begin];
     }
     public int minNumberInRotateArray(int [] array) {
